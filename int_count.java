@@ -1,4 +1,4 @@
-//************************************************************
+//***********************************************************
 //  Author: Steven Smail
 //
 //  int_count.java
@@ -6,11 +6,14 @@
 //  This program reads an arbitrary number of integers in the
 //  range 1 to 50, terminates from a 0 input, and outputs the
 //  total numbers of each value.
-//************************************************************
+//***********************************************************
 
 import java.util.Scanner;
 
-public class int_count{    public static void main (String[] args)    {
+public class int_count
+{
+    public static void main (String[] args)
+    {
         Scanner scanner = new Scanner(System.in);
 
         int n;
@@ -27,7 +30,8 @@ public class int_count{    public static void main (String[] args)    {
         int[] count = new int[51];
 
         //Initialize the array values
-        for (int index = 0; index < count.length; index++)        {
+        for (int index = 0; index < count.length; index++)
+        {
             count[index] = 0;
         }
 
@@ -54,7 +58,8 @@ public class int_count{    public static void main (String[] args)    {
         //Output array values and counts
         System.out.println("Value \t Count");
 
-        for (int index = 0; index < count.length; index++)        {
+        for (int index = 0; index < count.length; index++)
+        {
             if (count[index] != 0)
             {
             System.out.println(index + " \t " + count[index]);
