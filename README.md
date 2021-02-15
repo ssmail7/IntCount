@@ -1,2 +1,4 @@
 # IntCount
-Project 9 from my Programming Concepts class during the Spring 2016 semester.
+
+This program reads an arbitrary number of integers in the range 1 to 50,
+terminates from a 0 input, and outputs the total numbers of each value.
